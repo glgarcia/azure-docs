@@ -64,13 +64,7 @@ Users in this role can create application registrations when the "Users can regi
 
 ### [Authentication Administrator](#authentication-administrator-permissions)
 
-Users with this role can set or reset non-password credentials for some users and can update passwords for all users. Authentication administrators can require users who are non-administrators or assigned to some roles to re-register against existing non-password credentials (for example, MFA or FIDO), and can also revoke **remember MFA on the device**, which prompts for MFA on the next sign-in. These actions apply only to users who are non-administrators or who are assigned one or more of the following roles:
-
-* Authentication Administrator
-* Directory Readers
-* Guest Inviter
-* Message Center Reader
-* Reports Reader
+Users with this role can set or reset non-password credentials for some users and can update passwords for all users. Users with Authentication administrator role cannot require another users to re-register MFA
 
 The [Privileged authentication administrator](#privileged-authentication-administrator) role has permission can force re-registration and multi-factor authentication for all users.
 
